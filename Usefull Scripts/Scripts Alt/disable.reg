@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; Disable Left ALT (0x38) and Right ALT (E0 38)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+"Scancode Map"=hex:00,00,00,00,00,00,00,00,03,00,00,00,\
+38,00,00,00,\
+38,e0,00,00,\
+00,00,00,00
