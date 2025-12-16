@@ -1,0 +1,21 @@
+-> Going to boot command prompt - 
+
+	1) Use CTRL + ALT + DELETE
+
+	2) SHIFT + RESTART
+
+	3) Choose Command Prompt as advance recovery
+
+	4) Let it boot.
+
+->First Command to run on CMD ( X:\source\cmd.exe)
+
+	1) startnet.cmd
+	2) call wpeutil UpdateBootInfo
+
+after this insert SD card with all firmware
+
+	1) call d:\Scripts\main.cmd
+
+
+
